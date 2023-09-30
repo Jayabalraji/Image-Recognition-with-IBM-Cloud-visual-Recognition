@@ -12,12 +12,9 @@ Follow the [steps here](https://cloud.ibm.com/docs/codeengine?topic=codeengine-a
 ### Using public Docker Hub
 
 Run the below command to build and push three container images - _frontend, backend and backend-job_ respectively.
-   ```
-   ./deploy.sh <DOCKER_ACCOUNT_NAME>
-   ```
+ 
 **Note:**
- If you don't wish to build your own container images, you can use the pre-built container images - `vidyasagarmsc/*`. For example,
-  ```
+ If you don't wish to build your own container images, you can use the pre-built container images. For example,  ```
   docker pull vidyasagarmsc/frontend
   ```
 
